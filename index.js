@@ -16,5 +16,5 @@ app.use('/payment', payment);
 
 
 app.listen(port, () => {
-    console.log(`Connected to server`)
+    console.log(`Connected to server at port ${port}`)
 });
