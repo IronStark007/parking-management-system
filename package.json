@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security"
+  },
+  "name": "parking_system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohd Ali Ansari",
+  "license": "ISC",
+  "description": "An api for managing parking"
+}
