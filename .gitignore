@@ -1,0 +1,4 @@
+# local development
+
+node_modules/
+.env

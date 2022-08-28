@@ -1,6 +1,6 @@
 module.exports = [{
     slotId: 1,
-    slotNumber: 1,
+    bookingId: 5,
     carDetails: {
         name: "WagonR",
         RegNo: "R123"
@@ -8,7 +8,7 @@ module.exports = [{
 },
 {
     slotId: 2,
-    slotNumber: 2,
+    bookingId: 1,
     carDetails: {
         name: "Audi",
         RegNo: "R234"
@@ -16,17 +16,17 @@ module.exports = [{
 },
 {
     slotId: 3,
-    slotNumber: 3,
+    bookingId: 6,
     carDetails: {}
 },
 {
     slotId: 4,
-    slotNumber: 4,
+    bookingId: 2,
     carDetails: {}
 },
 {
     slotId: 5,
-    slotNumber: 5,
+    bookingId: 7,
     carDetails: {
         name: "Toyota",
         RegNo: "R456"
@@ -34,7 +34,7 @@ module.exports = [{
 },
 {
     slotId: 6,
-    slotNumber: 6,
+    bookingId: 3,
     carDetails: {
         name: "SUV",
         RegNo: "R567"
@@ -42,17 +42,17 @@ module.exports = [{
 },
 {
     slotId: 7,
-    slotNumber: 7,
+    bookingId: 8,
     carDetails: {}
 },
 {
     slotId: 8,
-    slotNumber: 8,
+    bookingId: 4,
     carDetails: {}
 },
 {
     slotId: 9,
-    slotNumber: 9,
+    bookingId: 10,
     carDetails: {
         name: "Jeep",
         RegNo: "R912"
@@ -60,7 +60,7 @@ module.exports = [{
 },
 {
     slotId: 10,
-    slotNumber: 10,
+    bookingId: 9,
     carDetails: {}
 },
 ]

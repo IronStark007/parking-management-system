@@ -5,19 +5,22 @@ An API for managing vehicle parking.
 
 ### Deployed App
 
+https://parking-system-ali.herokuapp.com/api/v1/
 
 #### Endpoint Details
 
-It has following endpoint:
+There are total 3 endpoint with the below methods:
 
-- GET / - for getting all employee information.
-- GET /:id - for getting an employee having specific `<id>`.
-- POST / - for creating/inserting a new employee.
-- PUT / - for updating an existing employee.
-- DELETE /:id - for deleting an employee having specific `<id>`.
+######/parking
+- GET / - for getting all parking slots information
+- GET /:id - for getting a parking slot having specific `<id>`.
+
+######/booking
+- POST / - for creating/inserting booking details using slotId.
+- DELETE /:id - for deleting an booking details having specific booking `<id>`.
+
+######/payment
+- POST / - for making payment using specific bookingId.
+
 
 ###### Author - [IronStark007](https://github.com/IronStark007)
-
-
-TO DO
-Add booking information also in createbooking and also delete the information from parking when delete from booking 
