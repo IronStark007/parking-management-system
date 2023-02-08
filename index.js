@@ -14,7 +14,7 @@ app.use(`/${process.env.APP_NAME}/${process.env.PARKING_PREFIX_URL}/parking`, pa
 app.use(`/${process.env.APP_NAME}/${process.env.PARKING_PREFIX_URL}/booking`, booking);
 app.use(`/${process.env.APP_NAME}/${process.env.PARKING_PREFIX_URL}/payment`, payment);
 
-
+console.log("App path variable:", `/${process.env.APP_NAME}/${process.env.PARKING_PREFIX_URL}`);
 app.listen(port, () => {
     console.log(`Connected to server at port ${port}`)
 });
