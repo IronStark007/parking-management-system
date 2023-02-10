@@ -20,10 +20,10 @@ There are total 3 endpoint with the below methods:
 ######/booking
 
 - POST / - for creating/inserting booking details using slotId.
-- DELETE /:id - for deleting an booking details having specific booking `<id>`.
+- DELETE /:id - for deleting an booking details having specific slotId.
 
 ######/payment
 
-- POST / - for making payment using specific bookingId.
+- POST / - for making payment using specific slotId.
 
 ###### Author - [IronStark007](https://github.com/IronStark007)
