@@ -1,7 +1,7 @@
-const express = require('express');
+const express = require("express");
 const routes = express();
-const payment = require('../controllers/payment')
+const payment = require("../controllers/payment");
 
-routes.post('/', payment.createPayment);
+routes.post("/", payment.createPayment);
 
 module.exports = routes;
