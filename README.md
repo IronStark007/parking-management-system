@@ -6,7 +6,7 @@ An API for managing vehicle parking.
 
 ### Deployed App
 
-https://parking-system-ali.herokuapp.com/api/v1/
+https://parking-system.onrender.com/api/v1
 
 #### Endpoint Details
 
